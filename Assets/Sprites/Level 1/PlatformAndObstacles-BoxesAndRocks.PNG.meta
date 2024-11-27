@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 07a75a884dc82bc43b0fa3f61502bcc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -463945081981114738
+    second: PlatformAndObstacles-BoxesAndRocks_0
+  - first:
+      213: -563178778815307345
+    second: PlatformAndObstacles-BoxesAndRocks_1
+  - first:
+      213: -1407589624204115385
+    second: PlatformAndObstacles-BoxesAndRocks_2
+  - first:
+      213: -3272163272255487862
+    second: PlatformAndObstacles-BoxesAndRocks_3
+  - first:
+      213: 6612602766608959307
+    second: PlatformAndObstacles-BoxesAndRocks_4
+  - first:
+      213: -2711176297973612557
+    second: PlatformAndObstacles-BoxesAndRocks_5
+  - first:
+      213: -1001688322172376754
+    second: PlatformAndObstacles-BoxesAndRocks_6
+  - first:
+      213: 860708910110621363
+    second: PlatformAndObstacles-BoxesAndRocks_7
+  - first:
+      213: 299313770592999905
+    second: PlatformAndObstacles-BoxesAndRocks_8
+  - first:
+      213: -754504177281329546
+    second: PlatformAndObstacles-BoxesAndRocks_9
+  - first:
+      213: -5677550675108920134
+    second: PlatformAndObstacles-BoxesAndRocks_10
+  - first:
+      213: -8407979344614675803
+    second: PlatformAndObstacles-BoxesAndRocks_11
+  - first:
+      213: 1076122472319284253
+    second: PlatformAndObstacles-BoxesAndRocks_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_0
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 542
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e931f76cbf89f0800000000000000
+      internalID: -463945081981114738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_1
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 541
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1ecaf62ef2f28f0800000000000000
+      internalID: -563178778815307345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_2
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 541
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742c9cbc1bc377ce0800000000000000
+      internalID: -1407589624204115385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 347
+        width: 78
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80c12e27d0f692d0800000000000000
+      internalID: -3272163272255487862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_4
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 347
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b470e706e2fa4cb50800000000000000
+      internalID: 6612602766608959307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_5
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 346
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fff2db7587ff5ad0800000000000000
+      internalID: -2711176297973612557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_6
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 347
+        width: 106
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49224537c94912f0800000000000000
+      internalID: -1001688322172376754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_7
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 351
+        width: 86
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be382a813ad1fb00800000000000000
+      internalID: 860708910110621363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_8
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 356
+        width: 201
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9149cd940672400800000000000000
+      internalID: 299313770592999905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 217
+        width: 377
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6761993c2767785f0800000000000000
+      internalID: -754504177281329546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 219
+        width: 546
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab48adfedb94531b0800000000000000
+      internalID: -5677550675108920134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_11
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 221
+        width: 611
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaab6d555bd05b80800000000000000
+      internalID: -8407979344614675803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformAndObstacles-BoxesAndRocks_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1998
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14f761efa72fee00800000000000000
+      internalID: 1076122472319284253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlatformAndObstacles-BoxesAndRocks_0: -463945081981114738
+      PlatformAndObstacles-BoxesAndRocks_1: -563178778815307345
+      PlatformAndObstacles-BoxesAndRocks_10: -5677550675108920134
+      PlatformAndObstacles-BoxesAndRocks_11: -8407979344614675803
+      PlatformAndObstacles-BoxesAndRocks_12: 1076122472319284253
+      PlatformAndObstacles-BoxesAndRocks_2: -1407589624204115385
+      PlatformAndObstacles-BoxesAndRocks_3: -3272163272255487862
+      PlatformAndObstacles-BoxesAndRocks_4: 6612602766608959307
+      PlatformAndObstacles-BoxesAndRocks_5: -2711176297973612557
+      PlatformAndObstacles-BoxesAndRocks_6: -1001688322172376754
+      PlatformAndObstacles-BoxesAndRocks_7: 860708910110621363
+      PlatformAndObstacles-BoxesAndRocks_8: 299313770592999905
+      PlatformAndObstacles-BoxesAndRocks_9: -754504177281329546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
