@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float jumpForce = 20f;
     public Transform groundCheck;
     public LayerMask groundLayer;
     private Rigidbody2D rb;
