@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 5
+  jumpForce: 7.5
   groundCheck: {fileID: 551854545}
   groundLayer:
     serializedVersion: 2
@@ -923,7 +923,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.9541283
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1547,6 +1547,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880912127}
   m_CullTransparentMesh: 1
+--- !u!1 &930943097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3701620821482097624, guid: 0016cfb771a9fc6439d46a20d57688b9, type: 3}
+  m_PrefabInstance: {fileID: 1066324429677509723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &930943100
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930943097}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.00000011920929, y: -0.19364637}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.77, y: 0.74}
+    newSize: {x: 3.77, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.7700002, y: 0.35270727}
+  m_EdgeRadius: 0
 --- !u!1001 &967758484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4457,7 +4508,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3701620821482097624, guid: 0016cfb771a9fc6439d46a20d57688b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 930943100}
   m_SourcePrefab: {fileID: 100100000, guid: 0016cfb771a9fc6439d46a20d57688b9, type: 3}
 --- !u!1001 &1154394821220672315
 PrefabInstance:

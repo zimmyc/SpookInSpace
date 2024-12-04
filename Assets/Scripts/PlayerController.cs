@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isGrounded;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation; 
         // Freeze rotation to prevent tipping
     }
@@ -26,6 +28,9 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
+        
+        // Update the Speed parameter in the Animator
+        animator.SetFloat("Speed", Mathf.Abs(moveInput.x));
     }
 
     void FixedUpdate()
