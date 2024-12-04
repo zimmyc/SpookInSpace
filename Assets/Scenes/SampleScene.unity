@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 514866181}
   m_Layer: 0
   m_Name: AstronautLVL1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1330,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 514866175}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 78.23, y: 0.1, z: 0}
+  m_LocalPosition: {x: 82.62, y: 0.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3346,7 +3346,7 @@ GameObject:
   - component: {fileID: 1286944807}
   - component: {fileID: 1286944806}
   m_Layer: 0
-  m_Name: Fade Trigger
+  m_Name: LevelEndTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3364,7 +3364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177296d56444ae045828149cb8aa66a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenFader: {fileID: 1419292197}
+  gameManager: {fileID: 1592991142}
   nextSceneName: Space
 --- !u!61 &1286944807
 BoxCollider2D:
@@ -4232,6 +4232,53 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.06, y: 0.6975663}
   m_EdgeRadius: 0
+--- !u!1 &1592991141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592991143}
+  - component: {fileID: 1592991142}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1592991142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592991141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37959ad782bbec4c80e78c2a74f08b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 514866175}
+  - {fileID: 1456800590}
+--- !u!4 &1592991143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592991141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 84.57215, y: -2.245164, z: 5.2487407}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1614254866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12502,6 +12549,7 @@ SceneRoots:
   - {fileID: 514866178}
   - {fileID: 1419292196}
   - {fileID: 1286944808}
+  - {fileID: 1592991143}
   - {fileID: 5547130218199537}
   - {fileID: 1066324429677509723}
   - {fileID: 8177561801166788956}
