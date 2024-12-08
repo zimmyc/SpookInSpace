@@ -11,6 +11,9 @@ public class BackgroundChanger : MonoBehaviour
     public GameObject newBackground4;
     public GameObject newBackground5; 
     public GameObject newBackground6; 
+    public GameObject newBackground7; 
+    public GameObject newBackground8; 
+    public GameObject newBackground9; 
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,7 +25,10 @@ public class BackgroundChanger : MonoBehaviour
             newBackground3.SetActive(true);
             newBackground4.SetActive(true);
             newBackground5.SetActive(true);
-            newBackground6.SetActive(true);// Activate the second new background
+            newBackground6.SetActive(true);
+            newBackground7.SetActive(true);
+            newBackground8.SetActive(true);
+            newBackground9.SetActive(true);
         }
     }
 }
