@@ -3614,7 +3614,7 @@ Transform:
   m_GameObject: {fileID: 514866175}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.09, y: -6.7, z: 0}
+  m_LocalPosition: {x: -18.17, y: -6.98, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3819,7 +3819,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.4
+  orthographic size: 4.7197757
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3844,9 +3844,9 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.03, y: -6.51, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -17.03, y: -5.95, z: -10}
+  m_LocalScale: {x: 0.73, y: 0.73, z: 0.73}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1683252233}
   m_Father: {fileID: 0}
@@ -5939,11 +5939,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1019274715468368535, guid: e12f153d4a3ca9e43ba1ed8a29b91bca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.26
+      value: 12.22
       objectReference: {fileID: 0}
     - target: {fileID: 1019274715468368535, guid: e12f153d4a3ca9e43ba1ed8a29b91bca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.77
+      value: -4.41
       objectReference: {fileID: 0}
     - target: {fileID: 1019274715468368535, guid: e12f153d4a3ca9e43ba1ed8a29b91bca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6610,8 +6610,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: -14}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -27.26, y: -6.01}
+  m_SizeDelta: {x: 1709.94, y: 958.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880912129
 MonoBehaviour:
@@ -6663,7 +6663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a322671d843054aa7908a6c4e0c3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swayAmount: 0.5
+  swayAmount: 0.17
   swaySpeed: 50
 --- !u!1 &887154323 stripped
 GameObject:
@@ -7416,11 +7416,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3936854633687967903, guid: a6bfd07df8a417343b5e835eea376f6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.98
+      value: 9.94
       objectReference: {fileID: 0}
     - target: {fileID: 3936854633687967903, guid: a6bfd07df8a417343b5e835eea376f6a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.63
+      value: -4.27
       objectReference: {fileID: 0}
     - target: {fileID: 3936854633687967903, guid: a6bfd07df8a417343b5e835eea376f6a, type: 3}
       propertyPath: m_LocalPosition.z
