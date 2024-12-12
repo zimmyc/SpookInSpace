@@ -560,7 +560,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NEWASTROspriteSheet03png_0: -4851937863416141638
+      NEWASTROspriteSheet03png_1: 4479048037335358550
+      NEWASTROspriteSheet03png_10: 2919385963601254219
+      NEWASTROspriteSheet03png_11: -8434759051851800702
+      NEWASTROspriteSheet03png_12: -2770038095218507148
+      NEWASTROspriteSheet03png_13: 1355361429005070937
+      NEWASTROspriteSheet03png_14: 57364671618074689
+      NEWASTROspriteSheet03png_15: 5289120094840453180
+      NEWASTROspriteSheet03png_16: 1521629788899235417
+      NEWASTROspriteSheet03png_17: 8266068233954409137
+      NEWASTROspriteSheet03png_18: 8436027887079356618
+      NEWASTROspriteSheet03png_2: 8710071250518899375
+      NEWASTROspriteSheet03png_3: 4683044105228374316
+      NEWASTROspriteSheet03png_4: -8015534632149496322
+      NEWASTROspriteSheet03png_5: -5569034278210277815
+      NEWASTROspriteSheet03png_6: -2654721313217459769
+      NEWASTROspriteSheet03png_7: 3658411922069773519
+      NEWASTROspriteSheet03png_8: -219177492138994018
+      NEWASTROspriteSheet03png_9: 6835873698748649369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
