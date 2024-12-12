@@ -4186,7 +4186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560800870}
   - component: {fileID: 560800869}
-  - component: {fileID: 560800868}
+  - component: {fileID: 560800871}
   m_Layer: 0
   m_Name: TriggerProjectiles
   m_TagString: Untagged
@@ -4194,21 +4194,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &560800868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560800867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1f07abd32be6844af088de6ca6224c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4367224244576633166, guid: af05b4fed3b986d4e9353c332a02b1b1, type: 3}
-  firePoint: {fileID: 1080273561}
-  fireRate: 1
 --- !u!61 &560800869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4243,7 +4228,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3.788208, y: -1.2907977}
+  m_Offset: {x: 5.5905232, y: -1.2907977}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4253,7 +4238,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8.576416, y: 11.326381}
+  m_Size: {x: 12.1810465, y: 11.326381}
   m_EdgeRadius: 0
 --- !u!4 &560800870
 Transform:
@@ -4264,12 +4249,25 @@ Transform:
   m_GameObject: {fileID: 560800867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: -4.3662148, z: 4.238554}
+  m_LocalPosition: {x: 240.1, y: -4.3662148, z: 4.238554}
   m_LocalScale: {x: 11.1735935, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560800871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560800867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f3a943ecbfb654eb61b2f814386510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterShooter: {fileID: 0}
 --- !u!1001 &566288329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5335,6 +5333,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -101.546
       objectReference: {fileID: 0}
+    - target: {fileID: 6196802508188180932, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
+      propertyPath: videoPlayer
+      value: 
+      objectReference: {fileID: 25053926}
     - target: {fileID: 7393712562755767092, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
       propertyPath: m_Name
       value: brainMonster (4)
@@ -7660,6 +7662,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 117.569
       objectReference: {fileID: 0}
+    - target: {fileID: 6196802508188180932, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
+      propertyPath: videoPlayer
+      value: 
+      objectReference: {fileID: 25053926}
     - target: {fileID: 7393712562755767092, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
       propertyPath: m_Name
       value: brainMonster (2)
@@ -9232,6 +9238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.562
       objectReference: {fileID: 0}
+    - target: {fileID: 6196802508188180932, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
+      propertyPath: videoPlayer
+      value: 
+      objectReference: {fileID: 25053926}
     - target: {fileID: 7393712562755767092, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
       propertyPath: m_Name
       value: brainMonster (5)
@@ -11121,13 +11131,17 @@ PrefabInstance:
       propertyPath: videoPlayer
       value: 
       objectReference: {fileID: 25053926}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2905485706173797825, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8798269002083801620, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1080273561}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4556993111328321358, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1498805667}
   m_SourcePrefab: {fileID: 100100000, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
 --- !u!1001 &1476368554
 PrefabInstance:
@@ -11263,6 +11277,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b6781ffe6eeeb849b2929b9d66aff34, type: 3}
+--- !u!1 &1498805659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4556993111328321358, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
+  m_PrefabInstance: {fileID: 1457750339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1498805667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498805659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760ceb1e7fbc1f940b6d2fd6a0549f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4367224244576633166, guid: af05b4fed3b986d4e9353c332a02b1b1, type: 3}
+  player: {fileID: 1726470741}
+  shootingInterval: 1
+  projectileSpeed: 20
 --- !u!1 &1505592919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2523333743982543064, guid: 2bdf3b18c69ea33419b77a946a0bc758, type: 3}
@@ -11969,6 +12004,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.721
       objectReference: {fileID: 0}
+    - target: {fileID: 6196802508188180932, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
+      propertyPath: videoPlayer
+      value: 
+      objectReference: {fileID: 25053926}
     - target: {fileID: 7393712562755767092, guid: 62f0b8059b4a99d4ab96bd9865eea4d5, type: 3}
       propertyPath: m_Name
       value: brainMonster (3)
@@ -13646,6 +13685,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7986642010382310240, guid: 4adc43a72e50f68458609a6927d17348, type: 3}
+      propertyPath: videoPlayer
+      value: 
+      objectReference: {fileID: 25053926}
     - target: {fileID: 8719419551281933979, guid: 4adc43a72e50f68458609a6927d17348, type: 3}
       propertyPath: m_Name
       value: eyesMonster (3)
