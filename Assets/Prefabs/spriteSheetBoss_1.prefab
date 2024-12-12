@@ -1401,7 +1401,7 @@ GameObject:
   - component: {fileID: 7090423098835881154}
   - component: {fileID: 5262830433440644478}
   - component: {fileID: 3916184957756630045}
-  - component: {fileID: 2905485706173797825}
+  - component: {fileID: 8540031171835749809}
   m_Layer: 0
   m_Name: spriteSheetBoss_1
   m_TagString: Untagged
@@ -1685,7 +1685,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2905485706173797825
+--- !u!114 &8540031171835749809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1694,12 +1694,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4556993111328321358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1f07abd32be6844af088de6ca6224c, type: 3}
+  m_Script: {fileID: 11500000, guid: 760ceb1e7fbc1f940b6d2fd6a0549f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4367224244576633166, guid: af05b4fed3b986d4e9353c332a02b1b1, type: 3}
-  firePoint: {fileID: 0}
-  fireRate: 1
+  player: {fileID: 0}
+  shootingInterval: 1
+  projectileSpeed: 20
 --- !u!1 &4628839468066804297
 GameObject:
   m_ObjectHideFlags: 0
