@@ -6666,7 +6666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swayAmount: 0.17
-  swaySpeed: 50
+  swaySpeed: 0
 --- !u!1 &887154323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1300189529982218260, guid: a0bb0591b7219c14caa7da03256be8a2, type: 3}
