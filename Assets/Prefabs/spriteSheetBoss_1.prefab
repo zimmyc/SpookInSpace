@@ -1575,6 +1575,9 @@ MonoBehaviour:
   videoPlayer: {fileID: 0}
   videoClips:
   - {fileID: 32900000, guid: 814ece5d280d9b442b99bebd96f4cc82, type: 3}
+  - {fileID: 32900000, guid: 5602311ec8de4cc40b17915218bed6df, type: 3}
+  - {fileID: 32900000, guid: e3d9266b83395474fb4f98cc5bb4b1d7, type: 3}
+  - {fileID: 32900000, guid: 0369129cab1c33c4eacac10610bc647d, type: 3}
 --- !u!114 &5262830433440644478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1703,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 4367224244576633166, guid: af05b4fed3b986d4e9353c332a02b1b1, type: 3}
   player: {fileID: 0}
   shootingInterval: 1
-  projectileSpeed: 20
+  projectileSpeed: 10
 --- !u!1 &4628839468066804297
 GameObject:
   m_ObjectHideFlags: 0

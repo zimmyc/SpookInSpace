@@ -4,7 +4,6 @@ using UnityEngine;
 public class MonsterShooter : MonoBehaviour
 {
     public GameObject projectilePrefab;
-    public Transform player;
     public float shootingInterval = 2f;
     public float projectileSpeed = 10f;
     private bool isShooting = false;
@@ -20,17 +19,17 @@ public class MonsterShooter : MonoBehaviour
         if (!isShooting)
         {
             isShooting = true;
-            StartCoroutine(ShootAtPlayer());
+            StartCoroutine(ShootRandomly());
         }
     }
 
     public void StopShooting()
     {
         isShooting = false;
-        StopCoroutine(ShootAtPlayer());
+        StopCoroutine(ShootRandomly());
     }
 
-    IEnumerator ShootAtPlayer()
+    IEnumerator ShootRandomly()
     {
         while (isShooting)
         {
@@ -41,12 +40,11 @@ public class MonsterShooter : MonoBehaviour
 
     void ShootProjectile()
     {
-        if (player != null)
+        GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-            Vector2 direction = (player.position - transform.position).normalized;
-            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-            rb.velocity = direction * projectileSpeed;
+            rb.velocity = new Vector2(projectileSpeed, Random.Range(-1f, 1f));
         }
     }
 }

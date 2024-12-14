@@ -4446,7 +4446,7 @@ Transform:
   m_GameObject: {fileID: 560800867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 226.4, y: -4.3662148, z: 4.238554}
+  m_LocalPosition: {x: 229.6, y: -4.3662148, z: 4.238554}
   m_LocalScale: {x: 11.1735935, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5156,7 +5156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4367224244576633166, guid: af05b4fed3b986d4e9353c332a02b1b1, type: 3}
-  player: {fileID: 514866178}
   shootingInterval: 2
   projectileSpeed: 10
 --- !u!4 &657291185
@@ -11292,26 +11291,6 @@ PrefabInstance:
       propertyPath: videoPlayer
       value: 
       objectReference: {fileID: 25053926}
-    - target: {fileID: 7090423098835881154, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
-      propertyPath: videoClips.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7090423098835881154, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
-      propertyPath: 'videoClips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 32900000, guid: 814ece5d280d9b442b99bebd96f4cc82, type: 3}
-    - target: {fileID: 7090423098835881154, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
-      propertyPath: 'videoClips.Array.data[1]'
-      value: 
-      objectReference: {fileID: 32900000, guid: 5602311ec8de4cc40b17915218bed6df, type: 3}
-    - target: {fileID: 7090423098835881154, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
-      propertyPath: 'videoClips.Array.data[2]'
-      value: 
-      objectReference: {fileID: 32900000, guid: e3d9266b83395474fb4f98cc5bb4b1d7, type: 3}
-    - target: {fileID: 7090423098835881154, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
-      propertyPath: 'videoClips.Array.data[3]'
-      value: 
-      objectReference: {fileID: 32900000, guid: 0369129cab1c33c4eacac10610bc647d, type: 3}
     - target: {fileID: 8540031171835749809, guid: 62ab7dd5216000449a9ff7f0c427efd0, type: 3}
       propertyPath: player
       value: 
