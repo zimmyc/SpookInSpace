@@ -4,14 +4,19 @@ using UnityEngine.Video;
 public class Projectile : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public VideoClip[] fireClips; // Array of video clips 
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             VideoPlayer playerVideo = other.gameObject.GetComponent<VideoPlayer>();
-            playerVideo.Play();
-            playerVideo.loopPointReached += EndReached; // Add this line to handle the end of the video
+            {
+                int randomIndex = Random.Range(0, fireClips.Length); // Get a random index
+                playerVideo.clip = fireClips[randomIndex]; // Set the random video clip
+                playerVideo.Play();
+                playerVideo.loopPointReached += EndReached; // Handle the end of the video
+            }
             Destroy(gameObject);
         }
     }

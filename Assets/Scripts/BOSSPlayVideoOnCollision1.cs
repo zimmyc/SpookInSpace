@@ -17,10 +17,10 @@ public class BOSSPlayVideoOnCollision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Check if the collider is tagged as "Player"
+        if (other.CompareTag("Player")) 
         {
             PlayRandomVideo();
-            Debug.Log("collided");
+            Debug.Log("collided with boss");
         }
     }
 
@@ -38,8 +38,8 @@ public class BOSSPlayVideoOnCollision : MonoBehaviour
     {
         // Stop the video and perform any other actions needed
         vp.Stop();
-        Debug.Log("Video has ended.");
         
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene to restart
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // restart
+        Debug.Log("hit the boss so restarting");
     }
 }

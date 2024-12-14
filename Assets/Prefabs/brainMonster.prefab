@@ -124,8 +124,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 8300000, guid: dea08109c29a6184a997296bdc419084, type: 3}
-  - {fileID: 8300000, guid: 0733bea13e28f1a4a8577e198507c9be, type: 3}
+  - {fileID: 8300000, guid: 2b76915993ff0f543bd5a65514b7cb03, type: 3}
+  - {fileID: 8300000, guid: b206d74102e70794f98d78e293381e31, type: 3}
+  - {fileID: 8300000, guid: 42e4ce0371a30a34cb5c826fd95add70, type: 3}
+  - {fileID: 8300000, guid: a5a8c0b8e435b9946ada1599d25fd0ec, type: 3}
+  - {fileID: 8300000, guid: d6cc3d8cc20c1904d96080bed2c63493, type: 3}
 --- !u!114 &6196802508188180932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,9 +143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 0}
   videoClips:
-  - {fileID: 32900000, guid: 208a127aea329c842a44ecb33444b8aa, type: 3}
-  - {fileID: 32900000, guid: 3061f69633fb5954e8d7d5056874119d, type: 3}
-  - {fileID: 32900000, guid: 075d9885693006d4c8e79bf18d4ffc7d, type: 3}
+  - {fileID: 32900000, guid: 2483d266557f6c94b84de38df0894bb1, type: 3}
+  - {fileID: 32900000, guid: 2482d99a4e16f104aa7b532d399d360a, type: 3}
+  - {fileID: 32900000, guid: 86411fe6f154bce4a89254a98185ebfb, type: 3}
 --- !u!61 &314928260052313954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,7 +203,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 05ff984fef12efb4487f8e83c917bc70, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

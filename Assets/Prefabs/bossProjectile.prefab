@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4907366033329039257}
   - component: {fileID: 453876224214218353}
   - component: {fileID: 3769335517256964643}
+  - component: {fileID: 7432513263259324107}
   m_Layer: 0
   m_Name: bossProjectile
   m_TagString: Untagged
@@ -248,3 +249,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 453876224214218353}
+  fireClips:
+  - {fileID: 32900000, guid: d9679ac2a227f4445bda85f102b39542, type: 3}
+  - {fileID: 32900000, guid: 0a5f4fa770e010f489b73b8fcc1789ec, type: 3}
+  - {fileID: 32900000, guid: 4a1466ee2302ed64a9a2644e4e1ee7bc, type: 3}
+--- !u!114 &7432513263259324107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4367224244576633166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271a99cd947797e47a3341c9b52b6389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - {fileID: 8300000, guid: f94f1d63c71872d4eb524774b632cb6c, type: 3}
+  - {fileID: 8300000, guid: 479482dea09a931438e958395ac1ce29, type: 3}
+  - {fileID: 8300000, guid: 341948a3ee45e194f8d5b8be990fb06e, type: 3}
+  - {fileID: 8300000, guid: 0305ffdf4a43f1a4083c259f607d2912, type: 3}
+  - {fileID: 8300000, guid: 9aa692620612c34479805fa1a5eb4b25, type: 3}

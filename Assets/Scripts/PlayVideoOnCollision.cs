@@ -19,7 +19,7 @@ public class PlayVideoOnCollision : MonoBehaviour
         if (other.CompareTag("Player")) // Check if the collider is tagged as "Player"
         {
             PlayRandomVideo();
-            Debug.Log("collided");
+            Debug.Log("collided with monster");
         }
     }
 
@@ -37,6 +37,5 @@ public class PlayVideoOnCollision : MonoBehaviour
     {
         // Stop the video and perform any other actions needed
         vp.Stop();
-        Debug.Log("Video has ended.");
     }
 }

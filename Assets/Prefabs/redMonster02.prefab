@@ -127,7 +127,9 @@ MonoBehaviour:
   videoClips:
   - {fileID: 32900000, guid: 208a127aea329c842a44ecb33444b8aa, type: 3}
   - {fileID: 32900000, guid: 3061f69633fb5954e8d7d5056874119d, type: 3}
-  - {fileID: 32900000, guid: 075d9885693006d4c8e79bf18d4ffc7d, type: 3}
+  - {fileID: 32900000, guid: 991abad836ba45e488d68683bd1324cc, type: 3}
+  - {fileID: 32900000, guid: f97065f82d7f9394b8b64cb525017981, type: 3}
+  - {fileID: 32900000, guid: 17a68b101566de741a3d0805c650e138, type: 3}
 --- !u!61 &6826570777057990780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,7 +164,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.004061699, y: 0.24912536}
+  m_Offset: {x: -0.004061699, y: -0.24467354}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -172,7 +174,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.3945837, y: 0.4979844}
+  m_Size: {x: 0.3945837, y: 0.5089173}
   m_EdgeRadius: 0
 --- !u!82 &888918404496518951
 AudioSource:
@@ -283,5 +285,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 8300000, guid: dea08109c29a6184a997296bdc419084, type: 3}
-  - {fileID: 8300000, guid: 236d0bc9989d470488bd06105dcd9259, type: 3}
+  - {fileID: 8300000, guid: c9bbadbd15999ac4581e03ece8ae68af, type: 3}
+  - {fileID: 8300000, guid: 90a2e898ab9c29446a44b017e6ef082b, type: 3}
+  - {fileID: 8300000, guid: de398647bfd22c145893e4b5d903b485, type: 3}
+  - {fileID: 8300000, guid: 497dd92ec636b604fbce2e65063e0a65, type: 3}
+  - {fileID: 8300000, guid: 319c58cc582defa4d9377073f31299f1, type: 3}
+  - {fileID: 8300000, guid: 22a6e5b5701b8eb42b4c23dfe5232481, type: 3}
