@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FootstepController : MonoBehaviour
 {
-    public AudioClip footstepSound; // Single footstep sound clip
+    public AudioClip footstepSound; // Single footstep sound clip for this player
     public float stepInterval = 0.5f; // Time interval between steps
     private AudioSource audioSource; // Reference to the Audio Source component
     private bool isGrounded; // Check if the player is on the ground
@@ -16,6 +16,10 @@ public class FootstepController : MonoBehaviour
         if (audioSource == null)
         {
             Debug.LogError("AudioSource component is missing!");
+        }
+        else
+        {
+            audioSource.clip = footstepSound; // Assign the footstep sound to the audio source
         }
     }
 
