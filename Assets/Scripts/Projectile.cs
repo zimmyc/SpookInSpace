@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
                 playerVideo.Play();
                 playerVideo.loopPointReached += EndReached; // Handle the end of the video
             }
-            Destroy(gameObject);
+            Invoke("Destroy(gameObject)", 1f);
         }
     }
 
